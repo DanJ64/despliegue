@@ -13,7 +13,7 @@
         </div>
 
         <div class="card" style="width: 18rem;">
-                <img src="includes/content/resources/img/cpp.jpg" class="card-img-top" alt="cpp">
+                <img src="includes/content/resources/img/cpp.png" class="card-img-top" alt="cpp">
                 <div class="card-body">
                         <h5 class="card-title">C++</h5>
                         <p class="card-text">C++ es un lenguaje de programación diseñado en 1979 por Bjarne Stroustrup.
