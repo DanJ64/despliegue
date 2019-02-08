@@ -20,6 +20,12 @@
                 primera vez fuera de un laboratorio científico. Antes se había usado el nombre "C con clases". En C++,
                 la expresión "C++" significa "incremento de C" y se refiere a que C++ es una extensión de C.
             </p>
+
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/vLnPwxZdW4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </center>
+
         </div>
     </div>
 

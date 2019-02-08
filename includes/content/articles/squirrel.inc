@@ -8,7 +8,7 @@
                 que sea ligero. Es fácilmente integrable en aplicaciones, lo que lo convierte en un sustituto apropiado
                 de Lua o JavaScript.
             </p>
-            
+
             <p class="lead">
                 Es usado por Code::Blocks, o videojuegos tales como Left 4 Dead 2 o Portal 2 donde se usa como scripts
                 para eventos.
@@ -19,6 +19,12 @@
                 relicenció el lenguaje a MIT License para que pudiera ser guardado el proyecto en Google Code. Ha sido
                 desarrollado y mantenido por Alberto Demichelis.
             </p>
+
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/48XUW67jZyQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </center>
+
         </div>
     </div>
 

@@ -25,6 +25,11 @@
                 compilador implementado que provee el marco Mono - DotGNU, el cual genera programas para distintas
                 plataformas como Windows Microsoft, Unix, Android, iOS, Windows Phone, Mac OS y GNU/Linux.
             </p>
+            
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/6EBNIgkrU74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </center>
         </div>
     </div>
 
