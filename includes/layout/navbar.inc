@@ -17,8 +17,6 @@
             <a class="dropdown-item" href="index.php?ctl=cpp">C++</a>
             <a class="dropdown-item" href="index.php?ctl=csharp">C#</a>
             <a class="dropdown-item" href="index.php?ctl=java">Java</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
 
@@ -51,8 +49,6 @@
           <a class="dropdown-item" href="index.php?ctl=cpp">C++</a>
           <a class="dropdown-item" href="index.php?ctl=csharp">C#</a>
           <a class="dropdown-item" href="index.php?ctl=java">Java</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
 
