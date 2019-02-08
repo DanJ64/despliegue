@@ -1,6 +1,6 @@
 # Wireframe
 
-![Wireframe](https://github.com/DanJ64/despliegue/blob/master/doc/wireframe/Wireframe.pdf)
+[Wireframe](https://github.com/DanJ64/despliegue/blob/master/doc/wireframe/Wireframe.pdf)
 
 
 
