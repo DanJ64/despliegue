@@ -1,0 +1,29 @@
+label{
+    margin-top: 5px;
+    color: azure;
+}
+#nombre{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#comentario{
+    width: 40%;
+    text-align: center;
+}
+.btn{
+    margin-bottom: 5px;
+}
+#padre{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+#hijo{
+    margin-top: 2px; 
+    background-color: azure;
+    border: 2px solid black;
+    border-radius: 3px;
+}
