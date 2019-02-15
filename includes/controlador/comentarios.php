@@ -34,7 +34,7 @@
           <?php 
             $conexion = mysqli_connect('localhost','root','','webdespliegue');
             $stmt = $conexion->stmt_init();
-            $stmt->prepare("SELECT nombre, comentario, fechahora FROM web WHERE lenguaje = ?");
+            $stmt->prepare("SELECT nombre, comentario, fechahora FROM web WHERE lenguaje = ? ORDER BY  fechahora DESC");
             $stmt->bind_param('s',$pagina);
             $stmt->execute();
 
