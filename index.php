@@ -26,7 +26,13 @@
     <?php require_once("includes/layout/section.inc"); ?>
 
     <!--COMENTARIO-->
-    <?php require_once("includes/controlador/comentarios.php"); ?>
+    <?php
+        
+        if(isset($_GET['ctl'])){
+            require_once("includes/controlador/comentarios.php");
+        }
+    ?>
+    
 
     <!--FOOTER-->
     <?php require_once("includes/layout/footer.inc") ?>

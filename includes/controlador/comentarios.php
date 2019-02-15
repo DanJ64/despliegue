@@ -1,13 +1,17 @@
 <?php
+    if(isset($_GET['ctl'])){
+        $pagina = $_GET['ctl'];
+    }
     if (isset($_POST['boton'])){
         $nombre = $_POST["nombre"];
         $comentario = $_POST["comentario"];
         $fecha = date('H:i:s d/m/Y');
+        $lenguaje = $pagina;
 
         $conexion = mysqli_connect('localhost','root','','webdespliegue');
         $stmt = $conexion->stmt_init();
-        $stmt->prepare("INSERT INTO web (nombre, comentario, fechahora) VALUES(?, ?, ?)");
-        $stmt->bind_param("sss",$nombre,$comentario,$fecha);
+        $stmt->prepare("INSERT INTO web (nombre, comentario, fechahora, lenguaje) VALUES(?, ?, ?, ?)");
+        $stmt->bind_param("ssss",$nombre,$comentario,$fecha,$lenguaje);
         $stmt->execute();
         $conexion->close();
     }
@@ -30,7 +34,8 @@
           <?php 
             $conexion = mysqli_connect('localhost','root','','webdespliegue');
             $stmt = $conexion->stmt_init();
-            $stmt->prepare("SELECT nombre, comentario, fechahora FROM web");
+            $stmt->prepare("SELECT nombre, comentario, fechahora FROM web WHERE lenguaje = ?");
+            $stmt->bind_param('s',$pagina);
             $stmt->execute();
 
             $resultado = $stmt->get_result();
